@@ -1,8 +1,12 @@
 <legend><strong>STUDENT REGISTRATION FORM FOR SCHOOL'S LIBRARY</strong></legend>
   <h1>REGISTRATION FORM</h1>
   
+  <label for="ID"><strong>Student's ID Number:</strong></label><br>
+  <input type="text" id="id" name="id" placeholder="Enter here">
+  <br>  
+
   <label for="Name"><strong>Student's Name:</strong></label><br>
-  <input type="text" id="firstname" name="firstname" placeholder="Firstname"><input type="text" id="lastname" name="lastname" placeholder="Lastname"><br>
+  <input type="text" id="firstname" name="firstname" placeholder="Firstname"><br><input type="text" id="lastname" name="lastname" placeholder="Lastname"><br>
   <br>
                 
   <label for="Email"><strong>Email Address:</strong></label><br>
@@ -16,7 +20,6 @@
   <br>
 
   <legend><strong>Student's Gender:</strong></legend>
-  <br>
   <input type="radio" id="male" name="gender" value="male">
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
@@ -24,7 +27,6 @@
   <br>
 
   <legend><strong>Student's Year Level:</strong></legend> 
-  <br>
   <input type="checkbox" id="First Year" name="First Year" value="none">
   <label for="box1"> First Year</label><br>
   <input type="checkbox" id="Second Year" name="Second Year" value="none">
@@ -32,10 +34,10 @@
   <input type="checkbox" id="Third Year" name="Third Year" value="none">
   <label for="box3"> Third Year</label><br>
   <input type="checkbox" id="Fourth Year" name="Forth Year" value="none">
-  <label for="box4"> Forth Year</label>
+  <label for="box4"> Forth Year</label><br>
   <input type="checkbox" id="Fifth Year" name="Fifth Year" value="none">
-  <label for="box5"> Fifth Year</label>
-  <br><br>
+  <label for="box5"> Fifth Year</label><br>
+  <br>
   
   <label for="Course"><strong>Student's Course:</strong></label>
   <select name="Course" id="Course">  
@@ -51,20 +53,20 @@
   <option value="CM">CM</option>  
   </select>
   <br>
-  <br>
 
-  <p><strong>Select Region</strong></p>
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Northern Gazzel</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Midland Gaboons</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Southern Skymongers</label>
-  <br>
+  <p><strong>Select Category</strong></p>
+  <input type="radio" id="cat1" name="cat1" value="cat1">
+  <label for="male">Category 1 (Minimal Internet Connection + Printed Materials)</label><br>
+  <input type="radio" id="cat2" name="cat2" value="cat2">
+  <label for="female">Category 2 without Courier (Semi-internet connection + Digital Materials)</label><br>
+  <input type="radio" id="cat2plus" name="cat2plus" value="cat2plus">
+  <label for="other">Category 2 with Courier (Semi-internet connection + Printer Materials)</label>
+  <input type="radio" id="cat3" name="cat3" value="cat3">
+  <label for="other">Category 3 (Full internet connection)</label>
   <br>
 
   <input type="reset" Onclick="alert('Reset')" >   
-  <input type="Submit" value="Submit" Onclick="alert('Successfully Signed up')">
+  <input type="Submit" value="Sign up" Onclick="alert('Successfully Signed up')">
   <br>
 
   </form>
