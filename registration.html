@@ -1,13 +1,11 @@
 <legend><strong>STUDENT REGISTRATION FORM FOR SCHOOL'S LIBRARY</strong></legend>
   <h1>REGISTRATION FORM</h1>
   
-  <label for="Name"><strong>Name:</strong></label><br>
-  <input type="text" id="firstname" name="firstname" placeholder="Enter FirstName"><br>
-  <br>
-  <input type="text" id="lastname" name="lastname" placeholder="Enter LastName"><br>
+  <label for="Name"><strong>Student's Name:</strong></label><br>
+  <input type="text" id="firstname" name="firstname" placeholder="Firstname"><input type="text" id="lastname" name="lastname" placeholder="Lastname"><br>
   <br>
                 
-  <label for="Email"><strong>Email:</strong></label><br>
+  <label for="Email"><strong>Email Address:</strong></label><br>
   <input type="text" id="email" name="email" placeholder="Enter Email">
   <br>
   <br>
@@ -16,5 +14,50 @@
   <br>
   <input type="password" id="pass" name="pass" placeholder="************"><br><br>
   
+  <hr>
+  <legend><strong>Student's Gender:</strong></legend>
+  <br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <hr>
+  <legend><strong>Student's Course:</strong></legend> 
+  <br>
+  <input type="checkbox" id="Sports" name="Sports" value="none">
+  <label for="box1"> Sports</label><br>
+  <input type="checkbox" id="Music" name="Music" value="none">
+  <label for="box2"> Music</label><br>
+  <input type="checkbox" id="Arts" name="Arts" value="none">
+  <label for="box3"> Arts</label><br>
+  <input type="checkbox" id="Gamer" name="Gamer" value="none">
+  <label for="box4"> Gamer</label>
+  <br><br>
+  
+  <hr>
+  <label for="Class"><strong>Class:</strong></label>
+  <select name="Class" id="Class" >  
+  <option value="BSIT">Melee Swordsman</option>
+  <option value="BSIM">Mage Assassin</option>
+  <option value="BSCS">Ranged Ranger</option>  
+  </select>
+  <br>
+  <br>
+
+  <p><strong>Select Region</strong></p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Northern Gazzel</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Midland Gaboons</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Southern Skymongers</label>
+  <br>
+  <br>
+
+  <input type="Submit" value="Sign Up" Onclick="alert('Successfully Signed up')">
+  <input type="reset" Onclick="alert('Reset')" >   
+  <br>
 
   </form>
