@@ -1,3 +1,5 @@
-p { font: 15px Arial, sans-serif; }
-p { font: italic small-caps bold 12px/30px Georgia, serif; }
-body { background: lightblue url("img_calendar.jpg") no-repeat fixed center; }
+td { color: #F67280; }
+td.thick { font-weight: bold; }
+div.td { line-height: normal; }
+td.monospace { font-family: courier; }
+body { background: #355C7D url("img/calendar.jpg") no-repeat fixed center; }
