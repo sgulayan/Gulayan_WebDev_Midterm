@@ -22,20 +22,24 @@ a {
 h1 {
     font-size : 3em;
     color : red;
+    font-style: bold;
 }
 
 h1.toptitle {
     margin-bottom : 10px;
+    font-style: bold;
 }
 
 h2 {
     font-size : 1.5em;
     color : #FF8500;
+    font-style: bold;
 }
 
 h3 {
     font-size : 1.2em;
     color : #00B945;
+    font-style: bold;
 }
 
 /* ASIDE */
