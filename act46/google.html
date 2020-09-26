@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang=”en”>
-  <head>
+ <head>
         <title>Google</title>
-        <link rel="shortcut icon" type ="image/icon" href="websitelogo.ico">
+        <link rel="shortcut icon" type ="image/icon" href="img/favicon.ico">
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
+        <!-- Navigation Header -->
         <div class="header">
+            <div id="headleft">
+                <a href="https://about.google/intl/en/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="headLinkA" target="_blank">About</a>
+                <a href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042" class="headLinkA" target="_blank">Store</a>
+            </div>
 
             <div id="headright" class="textRight">
-                <a href="https://sgulayan.github.io/Gulayan_WebDev_Midterm/act46/google.html" target="_blank">Gmail</a>
-                <a href="https://sgulayan.github.io/Gulayan_WebDev_Midterm/act46/google.html" class="headLinkB" target="_blank">Images</a>
+                <a href="https://mail.google.com" class="headLinkC" target="_blank">Gmail</a>
+                <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0" class="headLinkB" target="_blank">Images</a>
             </div> 
             
             <div class="appRightA">
@@ -28,10 +33,12 @@
             </div>
         </div>
     
+        <!-- Google Logo -->
         <div class="logo">
-            <img src="logo.png" height="92" id="googleLogo">
+            <img src="./img/google_logo.png" height="92" id="googleLogo">
         </div>
-      
+
+        <!-- Search Bar -->
         <div class="form">
             <form action="" method="GET">
                 <input type="text" name="searchInput" id="searchBar">
@@ -39,6 +46,7 @@
             <span id="micLogo"></span>
         </div>
         
+        <!-- Search/Submit Button -->
         <div class="buttons">
             <div class="buttonPos">
                 <input type="submit" value="Google Search" class="grayButton">
@@ -46,16 +54,22 @@
             </div> 
         </div>
 
-        <div class="offered">
-          <p> Google offered in: </p>
-                <a href="https://sgulayan.github.io/Gulayan_WebDev_Midterm/act46/google.html" target="_blank" class="Language" >Filipino</a> 
-                <a href="https://sgulayan.github.io/Gulayan_WebDev_Midterm/act46/google.html" target="_blank" class="Language" >Cebuano</a> 
+        <div class="discover">
+                <a href="https://artsandculture.google.com/project/black-history-and-culture" target="_blank" class="blackHistory" >Discover stories of Black history through dance on Google Arts & Culture</a> 
         </div>
         
+        <!-- Footer -->
         <footer>
             <span id="footleft">
-                <a href="https://sgulayan.github.io/Gulayan_WebDev_Midterm/act46/google.html" class="footLink">Philippines</a>
+                <a href="https://github.com/PeterBohai" target="_blank" class="footLink">Advertising</a>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none" target="_blank" class="footLinkA">Business</a>
+            </span>
+            <span id="footright">
+                <a href="https://policies.google.com/privacy?hl=en&gl=us" target="_blank" class="footLinkB">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&gl=us" target="_blank" class="footLinkB">Terms</a>
+                <a href="https://www.google.com/preferences?hl=en" target="_blank" class="footLinkC">Settings</a>
             </span>
         </footer>
+
     </body>
 </html>
