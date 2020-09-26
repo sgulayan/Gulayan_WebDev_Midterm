@@ -8,6 +8,7 @@ body {
     margin-left : auto;
     margin-right : auto;
     font-family : Gill Sans, sans-serif;
+    font-weight: bold;
     font-size : 1.2em;
     color : #404040;
     background-color : white;
@@ -24,12 +25,14 @@ a {
 
 h1 {
     font-size : 3em;
+    font-weight: bold;
     color : FF2C00;
 }
 
 
 h1.toptitle 
 {
+    font-weight: bold;
     margin-bottom : 10px;
 
 }
@@ -37,6 +40,7 @@ h1.toptitle
 h2 
 {
     font-size : 1.5em;
+    font-weight: bold;
     color : #FF8500;
 
 }
@@ -45,6 +49,7 @@ h2
 h3 
 {
     font-size : 1.2em;
+    font-weight: bold;
     color : #00B945;
 }
 
@@ -64,6 +69,7 @@ aside
 
 aside h1 {
     font-size : 1.2em;
+    font-weight: bold;
     margin-top : 0px;
     color: #FF2C00;
 }
@@ -71,6 +77,7 @@ aside h1 {
 
 aside h2 {
     font-size : 1em;
+    font-weight: bold;
 }
 
 
@@ -103,6 +110,7 @@ nav {
 
 nav h1 {
     display : none;
+    font-weight: bold;
 }
 
 nav ul {
