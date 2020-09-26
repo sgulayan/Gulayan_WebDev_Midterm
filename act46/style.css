@@ -159,9 +159,6 @@ a:hover {
 
 #footer-left {
   float: left;
+  padding-left: 27px;
 }
 
-#footer-right {
-  float: right;
-  padding-right: 27px;
-}
