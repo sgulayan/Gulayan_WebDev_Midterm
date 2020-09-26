@@ -21,7 +21,7 @@ a {
 
 h1 {
     font-size : 3em;
-    color : FF2C00;
+    color : red;
 }
 
 h1.toptitle {
@@ -53,10 +53,15 @@ aside {
 aside h1 {
     font-size : 1.2em;
     margin-top : 0px;
+    color: red;
 }
 
 aside h2 {
     font-size : 1em;
+}
+
+aside p {
+    font-style: italic;
 }
 
 aside div {
