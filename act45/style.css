@@ -136,7 +136,7 @@ img.top-image {
 
 ul.body-list{
     list-style-position : inside;
-    list-style-image : url('../images/small_arrow.png');
+    list-style-image : url('small_arrow.png');
     line-height : 1.8em;
 }
 
