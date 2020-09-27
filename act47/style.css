@@ -52,7 +52,7 @@ h2 {
 }
 
 .main-background {
-    background: url('man.jpg');
+    background: url('im.jpg');
     background-size: cover;
 }
 
@@ -175,7 +175,7 @@ h2 {
     }
 
     .main-background {
-        background-image: url('man.jpg');
+        background-image: url('im.jpg');
     }
 
     .hero-text {
