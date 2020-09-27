@@ -108,7 +108,7 @@ h2 {
 }
 
 .arrow-next {
-    right: -60px;
+    right: -80px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
@@ -163,63 +163,3 @@ h2 {
     opacity: 1;
 }
 
-/***MEDIA QUERIES***/
-
-
-@media only screen and (max-width: 767px) {
-    .column-flex-1 {
-        flex: 1;
-        min-width: 600px;
-        padding: 15px;
-        margin: 15px;
-    }
-
-    .main-background {
-        background-image: url('man.jpg');
-    }
-
-    .hero-text {
-        padding-top: 600px;
-        font-size: 14px;
-        padding-left: 10px;
-    }
-
-    .carousel-wrapper {
-        min-height: 200px;
-    }
-
-    .carousel-item {
-        padding: 5px 5px;
-
-    }
-
-    .arrow {
-        border-width: 0 1px 1px 0;
-        display: inline-block;
-        padding: 8px;
-    }
-
-    .item-1 {
-        height: 200px;
-        width: 200px;
-    }
-
-    .item-2 {
-        height: 200px;
-        width: 200px;
-    }
-
-    .item-3 {
-        height: 200px;
-        width: 200px;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .arrow,
-    .light .arrow {
-        background-size: 10px;
-        background-position: 10px 50%;
-    }
-}
