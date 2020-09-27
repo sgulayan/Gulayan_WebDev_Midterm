@@ -62,7 +62,7 @@ h2 {
     padding-left: 50%;
 }
 
-
+/***ABOUT SECTION***/
 .about-section {
     margin-left: 100px;
 }
@@ -126,7 +126,7 @@ h2 {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('three.jpg');
+    background: url('four.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
@@ -134,7 +134,7 @@ h2 {
 }
 
 .item-2 {
-    background: url('four.jpg');
+    background: url('three.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
@@ -163,6 +163,9 @@ h2 {
     z-index: 3;
     opacity: 1;
 }
+
+/***MEDIA QUERIES***/
+
 
 @media only screen and (max-width: 767px) {
     .column-flex-1 {
