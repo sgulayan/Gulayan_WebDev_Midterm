@@ -62,7 +62,6 @@ h2 {
     padding-left: 50%;
 }
 
-/***ABOUT SECTION***/
 .about-section {
     margin-left: 100px;
 }
@@ -109,7 +108,7 @@ h2 {
 }
 
 .arrow-next {
-    right: -30px;
+    right: -10px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
