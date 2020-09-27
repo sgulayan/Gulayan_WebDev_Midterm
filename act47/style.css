@@ -108,7 +108,7 @@ h2 {
 }
 
 .arrow-next {
-    right: -10px;
+    right: -60px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%) rotate(-45deg);
