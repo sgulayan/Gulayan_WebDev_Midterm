@@ -11,61 +11,7 @@ h2 {
     padding-bottom: 8px;
 }
 
-/***FLEXBOX SETTINGS***/
-.section {
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 1000px;
-    max-width: 80%;
-}
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-/***FLEX SETTINGS - COLUMNS***/
-.column-flex-1 {
-    flex: 1;
-    min-width: 400px;
-    padding: 15px;
-    margin: 15px;
-}
-
-.column-flex-2 {
-    flex: 2;
-    margin: 15px;
-    padding: 15px;
-}
-
-.column-flex-3 {
-    flex: 3;
-    margin: 15px;
-    padding: 15px;
-}
-
-.column-flex-4 {
-    flex: 4;
-    margin: 15px;
-    padding: 15px;
-}
-
-/***HERO SCREEN SECTION***/
-.main-background {
-    background: url('iron man.jpg');
-    background-size: cover;
-}
-
-.hero-text {
-    padding-top: 230px;
-    color: white;
-    padding-left: 50%;
-}
-
-/***ABOUT SECTION***/
 .about-section {
     margin-left: 100px;
 }
@@ -80,7 +26,6 @@ h2 {
     color: rgb(38, 38, 38);
 }
 
-/***ABOUT SECTION - CAROUSEL ELEMENT***/
 .carousel-wrapper {
     min-height: 400px;
     position: relative;
@@ -123,7 +68,6 @@ h2 {
     color: white;
 }
 
-/*Select every element*/
 [id^="item"] {
     display: none;
 }
@@ -168,11 +112,6 @@ h2 {
     z-index: 3;
     opacity: 1;
 }
-
-
-
-/***MEDIA QUERIES***/
-
 
 @media only screen and (max-width: 767px) {
     .column-flex-1 {
