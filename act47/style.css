@@ -55,7 +55,7 @@ h2 {
 
 /***HERO SCREEN SECTION***/
 .main-background {
-    background: url('../images/avicii.jpg');
+    background: url('iron man.jpg');
     background-size: cover;
 }
 
@@ -131,7 +131,7 @@ h2 {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('../images/true.jpg');
+    background: url('iron man.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
@@ -139,7 +139,7 @@ h2 {
 }
 
 .item-2 {
-    background: url('../images/stories.jpg');
+    background: url('iron man.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 400px;
@@ -148,7 +148,7 @@ h2 {
 }
 
 .item-3 {
-    background: url('../images/tim.jpg');
+    background: url('iron man.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 400px;
@@ -169,33 +169,7 @@ h2 {
     opacity: 1;
 }
 
-/***POPULAR SONGS SECTION***/
-.top-songs-background {
-    background: url('../images/avicii-concert.jpg');
-    background-size: cover;
-}
 
-.individual-song {
-    text-align: center;
-    border-style: none;
-}
-
-.no-border {
-    border-style: none;
-}
-
-.top-songs {
-    padding-bottom: 0px;
-    color: white;
-}
-
-/***FOUNDATION SECTION***/
-.foundation {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /***MEDIA QUERIES***/
 
@@ -209,7 +183,7 @@ h2 {
     }
 
     .main-background {
-        background-image: url('../images/avicii-mobile.jpg');
+        background-image: url('iron man.jpg');
     }
 
     .hero-text {
