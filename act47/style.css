@@ -52,7 +52,7 @@ h2 {
 }
 
 .main-background {
-    background: url('ironman.jpg');
+    background: url('man.jpg');
     background-size: cover;
 }
 
@@ -175,7 +175,7 @@ h2 {
     }
 
     .main-background {
-        background-image: url('ironman.jpg');
+        background-image: url('man.jpg');
     }
 
     .hero-text {
