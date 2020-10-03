@@ -256,7 +256,7 @@ total{
     align-items: center;
     width: 50%;
 }
-theTitle h2{
+.theTitle h2{
     margin: 0;
     padding: 0;
     font-family: 'Teko';
