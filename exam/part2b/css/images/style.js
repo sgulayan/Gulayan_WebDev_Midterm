@@ -1,4 +1,4 @@
-/*jslint browser:true */
+
 $(document).ready(function () {
 	var $body = $('body');
 	var $navbar = $('.navbar-default');
@@ -46,7 +46,7 @@ $(document).ready(function () {
 			openMenu();
 
 			$collapsedMenuItem.on('click', function () {
-				$('.navbar-toggle').click(); // Trigger collapse animation
+				$('.navbar-toggle').click(); 
 				closeMenu();
 			});
 		} else {
@@ -67,7 +67,7 @@ $(document).ready(function () {
 	$socialIcon.on({
 		'focus mouseenter': function () {
 			var $iconImg = $(this).children();
-			var $href = $iconImg.attr('src').slice(0, -18) + 'color.png?raw=true'; // Remove 'black.svg' from end and add 'color.svg'
+			var $href = $iconImg.attr('src').slice(0, -18) + 'color.png?raw=true'; 
 			$iconImg.attr('src', $href);
 		},
 		'blur mouseleave': function () {
