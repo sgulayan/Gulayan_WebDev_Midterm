@@ -1,162 +1,164 @@
-@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
-
-body{
-  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bright_squares.png');
-  position:relative;
+html {
+    margin: 0;
+    padding: 0;
 }
-
-.navbar-brand{
-  padding:5px;
-  padding-left : 20px;
-  height:50px;
-  position : relative;
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
 }
-
-.navbar-brand img{
-  height: 100%;
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
 }
-
-.thumbnail{
-  max-width : 500px;
-  margin-left:auto;
-  margin-right:auto;
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
 }
-
-.shadow{
-  box-shadow: 7px 7px 7px #666;
-   position : relative;
-  transition : all 0.2s;
-  top : 0;
+p {
+    padding: 0;
+    margin: 0;
 }
-.cust-caption{
-  display:none;
-  position: absolute;
-  background-color: rgba(30,30,30,0.8);
-  padding : 10px;
-  color:#ddd;
-  margin:5px;
-  bottom:0;
-  left:0;
-  right:0;
-  height : 60%;
-  margin:5px;
-  overflow-y : auto;
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
 }
-
-.stm-font{
-  font-family: 'Share Tech Mono',monospace;
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
-
-.color-hover:hover{
-	color : #337AB7;
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
 }
-
-.up-hover:hover {
-  top :-5px;
-  box-shadow: 15px 15px 15px #777;
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
 }
-
-.cust-caption a{
-  color:white;
-  
-  text-shadow:1px 1px 2px black;
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
 }
-
-
-.head h1{
-  color : white;
+.quote {
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
 }
-
-
-.heading{ 
-  text-align : center;
-  padding : 10px;
+table {
+    width: 100%;
+    font-size: 11pt;
 }
-
-#about p{
-	font-size : 1.2em;
-		position : relative;
-	left : 10px;
+table, th, td {
+    border: 2px solid #cecece;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
 }
-
-
-
-.logo{
-	padding-top:50px;
+.selected {
+    background-color: #f36f48;
+    font-weight: bold;
+    color: white;
 }
-
-.logo img{
-  position:relative;
-  width:100%;
-  max-width : 450px;
-  margin:auto;
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
 }
-
-.avatar{
- display: block;
-	position:relative;
-	width : 200px;
-	margin:auto;
+progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #efefef;
 }
-
-.showcase{
-	text-align:center;
-	padding-top:60px;
+progress::-webkit-progress-bar {
+    background: #efefef;
 }
-
-.showcase h1{
-font-size : 8em;
+progress::-webkit-progress-value {
+    background: #3fb6b2;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
 }
-
-.btn{
-font-size: 1.5em;
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
 }
-.links{
-	padding:30px 0;
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
 }
-
-.main-nav{
-	padding-top:50px;
+form {
+    text-align: center;
+    margin-top: 0;
 }
-
-.main-nav h1{
-	padding-bottom:20px;
+.submit {
+    background-color: #3fb6b2;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
 }
-
-footer{
-  height : 100%;
-	min-height:250px;
-	color:#ccc;
-	font-size:1.5em;
+.submit:hover {
+    background-color: #43a09d;
 }
-
-.dark-bg {
-  background: fixed url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/random_grey_variations.png' );  
+textarea {
+    height: 100px;
 }
-footer a{
-	color:white;
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
 }
-
-footer a:hover{
-	color:white;
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
 }
-
-
-footer img{
-	display:block;
-	position:relative;
-	margin:5px auto 20px auto;
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
 }
-
-.center{
-	text-align:center;
+#contacts a {
+    text-decoration: none;
 }
-
-footer li, footer p{
-	margin : 0;
-	padding : 7px;
+#contacts img:hover {
+    opacity: 0.8;
 }
-
-ul.links i {
-  font-size: 25px;
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
 }
