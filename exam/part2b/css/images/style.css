@@ -4,7 +4,6 @@ html {
 }
 body {
     font-family: "Cantarell", sans-serif;
-    text-transform: uppercase;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
@@ -36,7 +35,7 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("https://sgulayan.github.io/Gulayan_WebDev_Midterm/exam/part2b/css/images/keyboard.html");
+    background-image: url("https://sgulayan.github.io/Gulayan_WebDev_Midterm/exam/part2b/css/images/keyboard.jpg");
     background-size: cover;
 }
 #header img {
