@@ -1,201 +1,258 @@
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Roboto:400,700);
-
-/*html, body{
-  height: 100%;
-}*/
-
-body{
-  font-family: "Ubuntu", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Megrim|Monoton|Ribeye+Marrow);
+* {
+  box-sizing: border-box;
 }
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
+p{
+  font-size:20px;
 }
-
-.navbar-brand{
-  font-family: "Dancing Script", cursive;
-  font-weight: 700;
-  font-size: 2em;
+p a{
+  font-size:25px;
+  color:#ffffff;
+  font-wieght:bold;
 }
+/* --------------- Nav --------------- */
 
-.navbar li{
-  text-transform: capitalize;
+.navbar {
+  padding: 0;
+  margin-bottom: 0;
+  border: none;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 20, .7);
+  background-image: none;
 }
+/* ---------- Hero --------------- */
 
-#splash{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/home.jpg);
+#hero {
+  background: url("http://www.crestock.com/uploads/blog/wallpapers/set1/crestock-70406-1920x1200.jpg")50% 0 repeat fixed;
+  min-height: 1000px;
   background-size: cover;
   background-position: center;
-  height: 100%;
-  margin-top: 50px;
-  padding-top: 15%;
-  padding-bottom: 50px;
-  color: #fff;
-  font-size: 3em;
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-               0px 8px 13px rgba(0,0,0,0.5),
-               0px 18px 23px rgba(0,0,0,0.1);
 }
 
-  #splash h1{
-    font-size: 2em;
-  }
+#hero button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #ffffff;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
 
-  #splash a{
-    color: #fff;
-  }
+#hero button:hover {
+  background-color: #ffffff;
+  color: rgba(0, 0, 20, .90);
+}
 
-  #splash a:hover{
-    color: #e7e7e7;
-  }
+#hero h1 {
+  color: #ffffff;
+  margin-top: 25%;
+  letter-spacing: 8px;
+  font-variant: small-caps;
+  padding-top: 10px;
+  font-size: 45px;
+  font-family: 'Ribeye Marrow', cursive;
+}
 
-#portfolio{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/portfolio.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+#hero h4 {
+  color: #ffffff;
+  letter-spacing: 8px;
+  font-variant: small-caps;
+  padding: 20px 10px;
+}
+/*--------About----------*/
+
+#about {
+  background: url('https://40.media.tumblr.com/e2736bd0a1de23252c28a483a5539ce3/tumblr_nn6o6ca3DY1qzfsnio6_r1_1280.jpg')50% 0 repeat fixed;
+  min-height: 1000px;
   background-position: center;
-  height: 100%;
-  padding-bottom: 50px;
-  color: #fff;
+  background-size: cover;
+  padding: 14% 15px;
 }
 
-  #portfolio h1{
-    font-size: 5em;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.5),
-                 0px 18px 23px rgba(0,0,0,0.1);
-  }
-
-.thumbnail{
-  position: relative;
+#about p {
+  test-align: justify;
 }
 
-  .thumbnail img{
-    min-height: 250px;
-    min-width: 300px;
-  }
+#about img {
+  border-radius: 50%;
+  max-width: 250px;
+  margin: 0 auto;
+}
 
-.thumbnail-hover{
+.mwp-about-bkgrd {
+  color: #ffffff;
+  padding-left: 10%;
+}
+/*---------Portfolio-----------*/
+
+#portfolio {
+  color: #ffffff;
+  padding: 15% 5px;
+  background: url("http://www.marcywilliamspudalov.com/images/macro_PHOTO.png")50% 0 repeat fixed;
+  min-height: 1000px;
+  bacground-position: center;
+  background-size: cover;
+}
+
+#portfolio .img{
+  margin-bottom:20px;
+  width:100%;
+}
+
+.overlay {
+  display: block;
   position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 99%;
-  width: 99%;
-  opacity: 0;
-  transition:2s;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+  transition: all 0.5s;
 }
 
-    .thumbnail-hover:hover{
-    top: 2px;
-    left: 2px;
-    position: absolute;
-    height: 99%;
-    width: 99%;
-    background-color: rgba(0,0,0,0.8);
-    margin: 0 auto;
-    transition:.5s;
-    opacity: 1;
-    padding-top: 30%;
-    border-radius: 5px;
-  }
-
-  .thumbnail-hover i{
-    text-decoration: none;
-    color: white;
-  }
-
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-}
-
-#about{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/about.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 50px;
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  font-weight: 700;
   color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
 }
 
-  #about h1{
-    font-size: 5em;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.5),
-                 0px 18px 23px rgba(0,0,0,0.1);
-  }
-
-  #about p{
-    font-size: 1.5em;
-    text-align: justify;
-  }
-
-  #about img{
-    padding: 10px;
-    /*max-width: 180px;*/
-  }
-
-#white-bg{
-  /*background-color: rgba(0,0,0, 0.5);
-  border-radius: 20px;
-  margin-right: 10px;*/
-  float: left;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 6% 2%;
+a.close-overlay.hidden {
+  display: none;
 }
 
-#contact{
-  background-image: url(https://raw.githubusercontent.com/hash004/freecodecamp/master/portfolioPage/images/contact.jpg);
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  padding-bottom: 50px;
+a.expand {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: solid 5px #fff;
+  text-align: center;
   color: #fff;
+  line-height: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 30px;
 }
 
-  #contact h1{
-    font-size: 5em;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.5),
-                 0px 18px 23px rgba(0,0,0,0.1);
-  }
+#effect-1 .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+}
 
-  #contact h2{
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.5),
-                 0px 18px 23px rgba(0,0,0,0.1);
-  }
+#effect-1 .overlay a.expand {
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  margin: 0 auto;
+}
 
-  #contact address{
-    font-size: 1.5em;
-    color: #fff;
-    font-weight: bold;
-  }
+#effect-1 .img.hover .overlay {
+  height: 100%;
+}
+#portfolio img{
+  width:100%;
+}
+div.description {
+  position: absolute;
+  bottombottom: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  left: 0p;
+  bottom: 0;
+  z-index: 20;
+}
 
-  #contact .fa-stack{
-    color: #333;
-  }
+.description_content {
 
-  #contact .fa-stack:hover .fa-stack-1x{
-    color: #333;
-    transition: 0.5s;
-  }
+  text-align: center;
+}
+/*------Contact------*/
 
-  #contact .fa-stack:hover .fa-stack-2x{
-    color: #fff;
-    transition: 0.5s;
-  }
+#contact {
+  padding-top: 10%;
+  background: url('http://www.wellingtonjp.com/wp-content/uploads/2014/08/tree-sunset-light-clouds-field-fence-nature.jpg')50% 0 repeat fixed;
+  min-height: 1000px;
+  background-position: center;
+}
 
-  #contact a{
-    text-decoration: none;
-  }
+.mwp-bkgrd {
+  color: #ffffff;
+  padding: 10px;
+  margin:15%;
+  border-radius: 10px;
+  background-color: rgba(25, 0, 0, .45);
+  word-wrap: break-word;
+}
 
-hr{
-  width: 25%;
+#contact button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #ffffff;
+  margin: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+#contact button:hover {
+  background-color: #ffffff;
+  color: rgba(0, 0, 20, .90);
+}
+/*------Footer-------*/
+
+footer {
+  background-color: rgb(0, 0, 20);
+  height: auto;
+  padding: 15px 5px 15px 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #888888;
+  margin-right: 15px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p {
+  color: #888888;
+  font-size: 12px;
+  padding-top: 10px;
+}
+@media (max-width: 950px) {
+   #contact h3{
+    font-size:19px; 
+  }
+   .mwp-bkgrd{
+    margin:11% 5%;
+    
+  }
+}
+
+
+@media (max-width: 650px) {
+    #contact button {
+    display: block;
+  }
+  #contact h3{
+    font-size:16px; 
+  }
+  .mwp-bkgrd{
+    margin:10% 5%;
+    
+  }
+  
 }
