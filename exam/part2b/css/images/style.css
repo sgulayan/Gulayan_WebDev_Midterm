@@ -1,164 +1,168 @@
-html {
-    margin: 0;
-    padding: 0;
-}
 body {
-    font-family: 'Handlee', cursive;
-    font-size: 13pt;
-    background-color: #efefef;
-    padding: 10px;
-    margin: 0;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  background-color: #ffffff;
 }
-h1 {
-    font-size: 15pt;
-    color: #20bcd5;
-    text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
+header img {
+  border-radius: 50%;
+  margin: 30px 0 10px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
 }
-h1 span {
-    border: 4px dashed #20bcd5;
-    padding: 10px;
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navbar-default {
+  background-color: #2c3e50;
+  border:0;
+  box-shadow:0;
+  border-radius:0;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+.navbar-default .navbar-brand:hover {
+  color: #18BC9C;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #18BC9C;
+}
+.navbar-fixed-top {
+  padding: 20px;
+  z-index: 99;
+}
+header {
+  text-align: center;
+  background: #0DA3BC;
+  color: white;
+  padding: 90px 0 40px 0;
+}
+header .intro-text .name {
+  font-size: 3em;
+}
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;    
+}
+hr.star-light {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+header .intro-text .skills {
+  font-size: 1.75em;
+  font-weight: 900; 
+}
+section h2 {    
+  font-size: 2.5em;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+section {
+  padding: 30px 0 30px 0;    
+}
+section.success {
+  background: #0DA3BC;
+  color: white;
+  padding-bottom: 50px;
 }
 p {
-    padding: 0;
-    margin: 0;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: left;
 }
-.img-circle {
-    border: 3px solid white;
-    border-radius: 50%;
-}
-.section {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-#header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-    background-size: cover;
-}
-#header img {
+.thumbnail>img {
     display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
+    max-width: 100%;
+    height: 250px;
 }
-#header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
+.btn-lg {
+  width: 200px;  
 }
-.quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
+.fa {
+  font-weight: bold;  
 }
-table {
-    width: 100%;
-    font-size: 11pt;
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2c3e50;
 }
-table, th, td {
-    border: 2px solid #cecece;
-    border-collapse: collapse;
-    text-align: center;
-    table-layout: fixed;
+footer {
+  color: white;
 }
-.selected {
-    background-color: #f36f48;
-    font-weight: bold;
-    color: white;
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: #18bc9c;
+  background: white;
+  border: solid 2px white;
 }
-li {
-    margin-bottom: 15px;
-    font-weight: bold;
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+  color: white;
 }
-progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-progress::-webkit-progress-bar {
-    background: #efefef;
+footer h3 {
+  margin-bottom: 30px;
 }
-progress::-webkit-progress-value {
-    background: #3fb6b2;
-} 
-progress::-moz-progress-bar {
-    color: #3fb6b2;
-    background: #efefef;
+footer .footer-below {     
+  padding: 20px;
+  background-color: #233140;
 }
-iframe, audio {
-    display: block;
-    margin: 0 auto;
-    border: 3px solid #3fb6b2;
+
+
+@media only screen and (max-width : 480px) {
+  .navbar-default .navbar-brand {  
+    font-size: 1em;
+  }
 }
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
+@media only screen and (max-width : 320px) {
+  .navbar-default .navbar-brand {  
+    display: none;
+  }  
+  #navbar-brand-min {
+    display: block;  
+    font-size: 1em;
+  }
 }
-form {
-    text-align: center;
-    margin-top: 0;
+@media only screen and (min-width : 320px) {
+  #navbar-brand-min {
+    display: none;  
+  }
 }
-.submit {
-    background-color: #3fb6b2;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
-}
-.submit:hover {
-    background-color: #43a09d;
-}
-textarea {
-    height: 100px;
-}
-input, textarea {
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-    outline: none;
-}
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
-}
-#contacts img {
-    height: 50px;
-    width: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-}
-#contacts a {
-    text-decoration: none;
-}
-#contacts img:hover {
-    opacity: 0.8;
-}
-#contacts {
-    text-align: center;
-}
-.copyright {
-    font-size: 8pt;
-    text-align: right;
-    padding-bottom: 10px;
-    color: grey;
+@media only screen and (max-width:820px) {
+    .soc {
+        display: none;
+    }
 }
